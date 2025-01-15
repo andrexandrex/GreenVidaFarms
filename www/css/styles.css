@@ -1,0 +1,71 @@
+/* Styling for the sidebar */
+
+
+.bslib-sidebar-layout, .sidebar {
+    background-color: #f3f7f8 !important;
+    color: #0A1036 !important;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Styling for card headers */
+.card-header {
+    background: linear-gradient(15deg,#f37921, #e27256ea); /* purple to red gradient */
+    color: black;
+    padding: 10px; /* Example padding to ensure content is visible */
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Any additional custom styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#particles-js {
+    width: 95%;
+    height: 9%;
+    top: 0;
+    position: absolute;
+}
+
+#doi_link-label, #sheet_select-label {
+    font-weight: bolder;
+}
+
+.responsive-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+#reset_button {
+    --bs-btn-hover-bg: #EE0D15;
+    --bs-btn-bg: #f37921 !important;
+    color: black;
+}
+
+#ask_button, #report, #download {
+    --bs-btn-bg: #f37921 !important;
+    color: black;
+}
+
+#card_logo {
+    background: #f37921 !important;
+}
+
+.main.bslib-gap-spacing.html-fill-container {
+    background-image: url("/img/andes.png");
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+#chat_user_input {
+    background-color: rgba(255, 255, 255, 0.2); /* White background with 20% opacity */
+}
+
+.sidebar-content.bslib-gap-spacing{
+    background-color: #f3792117;
+}
